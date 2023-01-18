@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+
+App {
+  font-family: arial;
+}
+
+main {
+  width: 45vw;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+main, #formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+button:hove, select:hover {
+  cursor: pointer;
+}
